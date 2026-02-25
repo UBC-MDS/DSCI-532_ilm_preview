@@ -17,7 +17,7 @@ app_ui = ui.page_sidebar(
 def server(input, output, session):
     @render.text
     def build():
-        return f"Dev build preview"
+        return f"Dev build preview upd 1"
     @render.text
     def txt():
         return f"Number of observations: {input.n()}"
